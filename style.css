@@ -1,3 +1,120 @@
+/* Universal Styles */
+* {
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
 body {
     background-color: dimgray;
+}
+
+section {
+    width: 85%;
+    background-color: white;
+    height: 85%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 144px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+p {
+    padding: 15px;
+}
+
+/*-- Header Styles --*/
+header {
+    background-color: darkslategray;
+    width: 100vw;
+    height: 5%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/*-- Nav --*/
+nav {
+    /* border: 5px solid black; */
+    width: 85%;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a {
+    /* border: 5px solid white; */
+    color: cyan;
+}
+
+nav a:hover {
+    color: magenta;
+}
+
+nav a:active {
+    color: yellow;
+}
+
+.flex-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+}
+/*-- Main Styles--*/
+main {
+    height: 250vw;
+    width: 100vw;
+    background-color: gray;
+    margin-top: 30px;
+}
+/*-- Home --*/
+#home {
+    height: 50vw;
+    background-color: red;
+}
+/*-- About --*/
+#about {
+    height: 50vw;
+    background-color: green;
+}
+
+/*-- Skills --*/
+#skills {
+    height: 50vw;
+    background-color: blue;
+}
+/*-- Projects --*/
+#projects {
+    height: 50vw;
+    background-color: cyan;
+}
+/*-- Contact --*/
+#contact {
+    height: 50vw;
+    background-color: magenta;
+}
+
+/*-- Footer Styles --*/
+footer {
+    height: 5vw;
+    background-color: yellow;
 }
