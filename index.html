@@ -18,6 +18,7 @@
   </head>
   <body>
     <!--* header: contains nav-->
+    <!--? each nav link jumps to a section on index.html corresponding to their div ids -->
     <header class="flex-conatiner">
       <nav class="flex-nav">
         <a href="#home">Home</a>
@@ -28,14 +29,15 @@
       </nav>
     </header>
     <!-- main page content -->
+    <!--? main holds all five sections of content (home, about, skills, projects, contact) -->
     <main>
       <!--* landing page with tagline  -->
       <div id="home">
         <section>
           <h1>Hello World&excl;</h1>
-          <h5>
+          <h4>
             Welcome to your one stop shop for full stack development&period;
-          </h5>
+          </h4>
         </section>
       </div>
 
@@ -73,24 +75,63 @@
         <section>
           <h2>Skills</h2>
           <ul class="box">
-            <li><img src="./images/icons8-html-5-32.png" alt="" />HTML</li>
-            <li><img src="./images/icons8-css3-50.png" alt="" />CSS</li>
-            <li><img src="./images/icons8-javascript-48.png" alt="" />JS</li>
-          </ul>
-          <ul class="box">
-            <li><img src="./images/icons8-php-48.png" alt="" />PHP</li>
             <li>
-              <img src="./images/icons8-wordpress-64.png" alt="" />WordPress
-            </li>
-            <li><img src="./images/icons8-source-code-50.png" alt="" />MAMP</li>
-          </ul>
-          <ul class="box">
-            <li><img src="./images/icons8-github-64.png" alt="" />GitHub</li>
-            <li>
-              <img src="./images/icons8-visual-studio-50.png" alt="" />VSCode
+              <img
+                src="./images/icons8-html-5-32.png"
+                alt="HTML Icon by Icons8"
+              />HTML
             </li>
             <li>
-              <img src="./images/icons8-photoshop-48.png" alt="" />Photoshop
+              <img
+                src="./images/icons8-css3-50.png"
+                alt="CSS Icon by Icons8"
+              />CSS
+            </li>
+            <li>
+              <img
+                src="./images/icons8-javascript-48.png"
+                alt="JS Icon by Icons8"
+              />JS
+            </li>
+          </ul>
+          <ul class="box">
+            <li>
+              <img
+                src="./images/icons8-php-48.png"
+                alt="PHP Icon by Icons8"
+              />PHP
+            </li>
+            <li>
+              <img
+                src="./images/icons8-wordpress-64.png"
+                alt="WordPress Icon by Icons8"
+              />WordPress
+            </li>
+            <li>
+              <img
+                src="./images/icons8-source-code-50.png"
+                alt="MAMP Icon by Icons8"
+              />MAMP
+            </li>
+          </ul>
+          <ul class="box">
+            <li>
+              <img
+                src="./images/icons8-github-64.png"
+                alt="GitHub Icon by Icons8"
+              />GitHub
+            </li>
+            <li>
+              <img
+                src="./images/icons8-visual-studio-50.png"
+                alt="VSCode Icon by Icons8"
+              />VSCode
+            </li>
+            <li>
+              <img
+                src="./images/icons8-photoshop-48.png"
+                alt="Photoshop Icon by Icons8"
+              />Photoshop
             </li>
           </ul>
         </section>
@@ -105,9 +146,9 @@
 
           <!-- each project is divided into boxes -->
           <!--! project images are placeholders until actual projects are complete -->
-
+          <!--? each project has its own box and card for layout and short placeholder text for project description -->
           <div class="box card">
-            <a href="">
+            <a href="#">
               <img src="./images/icons8-source-code-50.png" alt="placeholder" />
               <h3>Project 1</h3>
               <p>
@@ -120,7 +161,7 @@
           <!-- box -->
 
           <div class="box card">
-            <a href="">
+            <a href="#">
               <img src="./images/icons8-source-code-50.png" alt="placeholder" />
               <h3>Project 2</h3>
               <p>
@@ -133,7 +174,7 @@
           <!-- box -->
 
           <div class="box card">
-            <a href="">
+            <a href="#">
               <img src="./images/icons8-source-code-50.png" alt="placeholder" />
               <h3>Project 3</h3>
               <p>
@@ -146,7 +187,7 @@
           <!-- box -->
 
           <div class="box card">
-            <a href="">
+            <a href="#">
               <img src="./images/icons8-source-code-50.png" alt="placeholder" />
               <h3>Project 4</h3>
               <p>
@@ -159,7 +200,7 @@
           <!-- box -->
 
           <div class="box card">
-            <a href="">
+            <a href="#">
               <img src="./images/icons8-source-code-50.png" alt="placeholder" />
               <h3>Project 5</h3>
               <p>
@@ -240,7 +281,19 @@
 
       <!-- created by -->
 
-      <h6>&copy;Created by&colon; Carlos D. Nunez</h6>
+      <h5>&copy;Created by&colon; Carlos D. Nunez</h5>
+
+      <!--? Copyright to Icons8.com -->
+
+      <h6>
+        Icons by
+        <a
+          href="https://icons8.com/icons"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Icons8</a
+        >
+      </h6>
     </footer>
   </body>
 </html>
