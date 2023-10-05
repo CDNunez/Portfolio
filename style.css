@@ -1,4 +1,4 @@
-/* Universal Styles */
+/** Universal Styles */
 * {
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
@@ -9,13 +9,7 @@
 }
 
 body {
-    background-color: dimgray;
-}
-
-section {
-    width: 85%;
-    background-color: white;
-    height: 85%;
+    background-color: yellow;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,14 +23,64 @@ h1 {
 }
 
 h2 {
-    font-size: 44px;
+    font-size: 64px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-weight: 500;
+    font-style: italic;
 }
 
 p {
-    padding: 15px;
+    padding: 10px;
+    font-size: 16px;
 }
 
-/*-- Header Styles --*/
+section {
+    padding-top: 10%;
+    width: 95%;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 85%;
+    height: 65%;
+    padding: 2px 15px;
+    background-color: beige;
+    border-radius: 15px;
+    box-shadow: -5px 10px 10px #383838;
+    margin: 10px;
+}
+
+.box {
+    display: inline-block;
+    width: 30%;
+}
+
+/**-- Header Styles --*/
 header {
     background-color: darkslategray;
     width: 100vw;
@@ -46,12 +90,7 @@ header {
     top: 0;
 }
 
-.flex-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-/*-- Nav --*/
+/**-- Nav --*/
 nav {
     /* border: 5px solid black; */
     width: 85%;
@@ -74,47 +113,145 @@ nav a:active {
     color: yellow;
 }
 
-.flex-nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-}
-/*-- Main Styles--*/
+/**-- Main Styles--*/
 main {
-    height: 250vw;
+    height: 295vw;
     width: 100vw;
     background-color: gray;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
-/*-- Home --*/
+/**-- Home --*/
 #home {
-    height: 50vw;
-    background-color: red;
-}
-/*-- About --*/
-#about {
-    height: 50vw;
-    background-color: green;
-}
-
-/*-- Skills --*/
-#skills {
-    height: 50vw;
-    background-color: blue;
-}
-/*-- Projects --*/
-#projects {
     height: 50vw;
     background-color: cyan;
 }
-/*-- Contact --*/
-#contact {
+
+/**-- About --*/
+#about {
+    height: 50vw;
+    background-image: linear-gradient(cyan, magenta);
+}
+
+#about h2 {
+    text-align: right;
+    padding-right: 30%;
+}
+
+#about p {
+    width: 95%;
+}
+
+#about img {
+    float: left;
+    width: 35%;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#about section {
+    height: 95%;
+    border-bottom: solid 5.5px black;
+}
+
+/**-- Skills --*/
+#skills {
     height: 50vw;
     background-color: magenta;
 }
 
-/*-- Footer Styles --*/
-footer {
-    height: 5vw;
+#skills h2 {
+    border-bottom: solid 2.5px black;
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+#skills img {
+    float: left;
+    height: 10%;
+    width: 10%;
+}
+
+#skills li {
+    font-size: 34px;
+    text-align: left;
+    padding: 20px;
+}
+
+
+/**-- Projects --*/
+#projects {
+    height: 85vw;
+    background-image: linear-gradient(magenta, yellow);
+}
+
+#projects h2 {
+    text-align: left;
+    border-left: solid 5.5px black;
+    margin-bottom: 5px;
+}
+
+#projects img {
+    height: 45%;
+    width: 45%;
+}
+/**-- Contact --*/
+#contact {
+    height: 65vw;
     background-color: yellow;
 }
+
+#contact h2 {
+    padding-top: 5%;
+}
+
+    /** Contact form copied from w3schools  */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: cyan;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: magenta;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: beige;
+    padding: 20px;
+    width: 50%;
+    box-shadow: -5px 10px 10px #383838;
+  }
+
+/**-- Footer Styles --*/
+footer {
+    background-color: yellow;
+    margin-top: 10%;
+}
+
+aside img {
+    padding: 15px;
+    height: 5vw;
+}
+
+/*! fix main height  */

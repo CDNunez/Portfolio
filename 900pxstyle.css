@@ -1,0 +1,69 @@
+/**-- Styles for screen only devices or max width of 1000px & min width of 600px --*/
+@media only screen and (max-width: 1000px)  {
+    /** Universal Styles */
+    h1 {
+        font-size: 74px;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    p {
+        padding: 2.5px;
+    }
+    
+    /** header styles */
+    /** main styles */
+    main {
+        height: 360vw;
+    }
+    /** About Styles */
+    #about {
+        height: 75vw;
+    }
+
+    #about h2 {
+        text-align: center;
+        padding-right:0 ;
+    }
+
+    #about section {
+        border-bottom: solid 2.5px black;
+    }
+
+    /** Skills Style */
+    #skills {
+        height: 60vw;
+    }
+
+    #skills li {
+        font-size: 24px;
+    }
+
+    #skills img {
+        height: 15%;
+        width: 15%;
+    }
+
+    /** Projects styles */
+    #projects {
+        height: 125vw;
+    }
+
+    /** contact styles */
+    #contact {
+        height: 70vw;
+    }
+
+    /** footer styles */
+    footer {
+        margin-top: 50%;
+    }
+
+    aside img {
+        height: 10vw;
+    }
+    
+
+}
