@@ -27,7 +27,7 @@ h2 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 400;
     font-style: italic;
 }
@@ -49,6 +49,18 @@ p {
 section {
     padding-top: 10%;
     width: 95%;
+}
+
+a {
+    color: magenta;
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:active {
+    color: rgb(0, 155, 155);
 }
 
 .flex-container {
@@ -190,6 +202,10 @@ main {
     margin-bottom: 5px;
 }
 
+#projects a p {
+    color: rgb(159, 0, 159);
+}
+
 #projects img {
     height: 45%;
     width: 45%;
@@ -219,7 +235,7 @@ input[type=text], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: cyan;
+    background-color: magenta;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -231,7 +247,7 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: magenta;
+    background-color: cyan;
   }
   
   /* Add a background color and some padding around the form */

@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px)  {
     /** universal styles */
     .flex-nav {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .box {
@@ -56,7 +56,7 @@
     #about img {
         display: none;
     }
-
+    
     /** Skills styles */
     #skills {
         height: 175vw;
