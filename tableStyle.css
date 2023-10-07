@@ -1,0 +1,74 @@
+@media only screen and (max-width: 950px)  {
+    /** Universal Styles */
+    h1 {
+        font-size: 100px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    /** Main Styles */
+    main {
+        height: 580vw;
+    }
+
+    /** Home Styles */
+    #home {
+        height: 100vw;
+    }
+
+    /** About Styles */
+    #about {
+        height: 100vw;
+    }
+
+    #about p {
+        font-size: 18px;
+    }
+
+    #about section {
+        border-bottom: solid 3.5px black;
+    }
+
+    /** Skills Styles */
+    #skills {
+        height: 110vw;
+    }
+
+    #skills h2 {
+        border-bottom: solid 1.5px black;
+    }
+
+    #skills li {
+        font-size: 28px;
+    }
+
+    #skills img {
+        height: 20%;
+        width: 20%;
+    }
+
+    /** Projects Styles */
+    #projects {
+        height: 155vw;
+    }
+
+    /** Contact Styles */
+    #contact {
+        height: 115vw;
+    }
+
+    /** Footer Styles */
+    aside img {
+        height: 10vw;
+    }
+}

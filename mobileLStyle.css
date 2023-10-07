@@ -1,0 +1,104 @@
+@media only screen and (max-width: 720px)  {
+        /** Universal Styles */
+        h1 {
+            font-size: 54px;
+        }
+    
+        h2 {
+            font-size: 34px;
+        }
+    
+        h4 {
+            font-size: 18px;
+        }
+    
+        h5 {
+            font-size: 12px;
+        }
+    
+        .box {
+            display: block;
+            width: 100%;
+        }
+
+        .card {
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        /** Header Styles */
+        /** Nav */
+        nav {
+            font-size: 20px;
+        }
+
+        /** Main Styles */
+        main {
+            height: 1205vw;
+        }
+    
+        /** Home Styles */
+        #home {
+            height: 190vw;
+        }
+    
+        /** About Styles */
+        #about {
+            height: 250vw;
+        }
+
+        #about img {
+            display: none;
+        }
+    
+        #about p {
+            font-size: 16px;
+        }
+    
+        #about section {
+            border-bottom: solid 2.5px black;
+        }
+    
+        /** Skills Styles */
+        #skills {
+            height: 250vw;
+        }
+    
+        #skills h2 {
+            border-bottom: solid 1px black;
+        }
+    
+        #skills li {
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        #skills img {
+            height: 10%;
+            width: 10%;
+            float: none;
+        }
+    
+        /** Projects Styles */
+        #projects {
+            height: 300vw;
+        }
+
+        #projects img {
+            display: none;
+        }
+    
+        /** Contact Styles */
+        #contact {
+            height: 215vw;
+        }
+
+        .container {
+            width: 85%;
+        }
+    
+        /** Footer Styles */
+        aside img {
+            height: 15vw;
+        }
+}

@@ -8,6 +8,10 @@
     margin: 0 auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: yellow;
 }
@@ -267,5 +271,6 @@ footer {
 
 aside img {
     padding: 15px;
-    height: 5vw;
+    height: 100px;
+    width: 100px;
 }

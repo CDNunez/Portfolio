@@ -1,0 +1,51 @@
+@media only screen and (max-width: 320px)  {
+            /** Header Styles */
+            /** Nav */
+            nav {
+                font-size: 16px;
+            }
+    
+            /** Main Styles */
+            main {
+                height: 1665vw;
+            }
+        
+            /** Home Styles */
+            #home {
+                height: 250vw;
+            }
+        
+            /** About Styles */
+            #about {
+                height: 350vw;
+            }
+        
+            #about section {
+                border-bottom: solid 1px black;
+            }
+        
+            /** Skills Styles */
+            #skills {
+                height: 350vw;
+            }
+
+            #skills img {
+                height: 12.5%;
+                width: 12.5%;
+            }
+        
+            /** Projects Styles */
+            #projects {
+                height: 400vw;
+            }
+        
+            /** Contact Styles */
+            #contact {
+                height: 315vw;
+            }
+
+            /** Footer Styles */
+            aside img {
+                padding: 5px;
+            }
+}
